@@ -3,4 +3,4 @@ Implementing and benchmarking various modern deep learning models in PyTorch (Re
 
 resnet.py : ResNet-based image classifiers on CIFAR-10 and MNIST
 
-Please see http://smirnovi.com/torch/ for an essay that describes these scripts in more detail.
+Please see http://iliasmirnov.com/torch/ for an essay that describes these scripts in more detail.
