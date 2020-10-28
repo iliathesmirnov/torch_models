@@ -63,7 +63,7 @@ class ResNetClassifier(nn.Module):
         super(ResNetClassifier, self).__init__()
         self.base = models.resnet18(pretrained=True)
 
-        #Uncomment the line below for MNIST (switch input to a single input instead of 3)
+        #Uncomment the line below for MNIST (switch number of input channels to 1 instead of 3)
         #nn.Conv2d(1, 64, kernel_size=7, stride=1, padding=3, bias=False)
 
         #Uncomment the two lines below to freeze the ResNet parameters:
